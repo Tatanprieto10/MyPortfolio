@@ -1,0 +1,66 @@
+main {
+    display: flex;
+}
+.main-header-container {
+    height: 200px;
+}
+.main-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.main-name {
+    font-size: 3rem;
+    margin-bottom: 2px;
+}
+.profession {
+    font-size: 2.8rem;
+}
+.general-description-container {
+    width: 60%;
+}
+.general-sections-container {
+    width: 40%;
+}
+.general-description--title {
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+.sections-title {
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+.education-description--title {
+    font-size: 2.4rem;
+}
+.experience-description--title {
+    font-size: 2.4rem;
+}
+.information-list li {
+    font-size: 1.6rem;
+}
+.contact-container {
+    align-self: center;
+}
+.media-container {
+    align-self: center;
+}
+.footer-container {
+    grid-template-columns: 50% 50%;
+    height: 150px;
+}
+.contact--title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 15px;
+}
+.media-title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 15px;
+}
+.footer-list-containers li {
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 3px 0;
+}

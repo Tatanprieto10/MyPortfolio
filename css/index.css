@@ -28,7 +28,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main-header-container .main-image {
+.main-image {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -82,7 +82,7 @@ html {
     margin: 10px 0;
     font-size: 1.6rem;
 }
-.excperience-description--title {
+.experience-description--title {
     margin: 10px 0;
     font-size: 1.6rem;
 }
