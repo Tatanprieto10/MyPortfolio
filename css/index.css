@@ -11,7 +11,7 @@
 }
 html {
     font-size: 62.5%;
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 .main-header-container {
     display: grid;
@@ -54,20 +54,16 @@ html {
 }
 .general-description-container {
     display: flex;
-    background-color: var(--container);
+    background: linear-gradient(207.8deg, #2b6da6 16.69%, #e2dcd6 100%);
     justify-content: center;
     margin: 8px 5px;
     border-radius: 5px;
-    background-image: url("./..//img/educationBackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .general-grid-container {
     display: grid;
     width: 100%;
     max-width: 415px;
-    height: 200px;
+    height: auto;
     grid-template-columns: 100%;
     grid-auto-rows: auto;
     gap: 6px;
@@ -105,12 +101,8 @@ html {
     height: auto;
     margin: 8px 5px;
     padding-bottom: 15px;
-    background-color: var(--container);
+    background: linear-gradient(207.8deg, #2b6da6 16.69%, #e2dcd6 100%);;
     border-radius: 5px;
-    background-image: url("../img/StadiumBackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .sections-title {
     text-align: center;
@@ -167,4 +159,8 @@ html {
 .footer-list-containers li {
     list-style: none;
     font-size: 1.0rem;
+    margin: 3px 0;
+}
+.media-list li a {
+    text-decoration: none;
 }
