@@ -63,12 +63,11 @@ html {
     display: grid;
     width: 100%;
     max-width: 415px;
-    height: auto;
+    min-height: 352px;
     grid-template-columns: 100%;
     grid-auto-rows: auto;
     gap: 6px;
     padding: 10px 5px;
-    overflow-y: scroll; 
 }
 .general-description--title {
     text-align: center;
@@ -98,7 +97,7 @@ html {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: auto;
+    min-height: 352px;
     margin: 8px 5px;
     padding-bottom: 15px;
     background: linear-gradient(207.8deg, #2b6da6 16.69%, #e2dcd6 100%);;
@@ -125,7 +124,7 @@ html {
 .sections-list li a {
     display: flex;
     flex-direction: column;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: none;
     color: black;
     text-align: center;

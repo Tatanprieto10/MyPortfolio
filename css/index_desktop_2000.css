@@ -1,0 +1,28 @@
+.sections-list-icons {
+    width: 250px;
+    height: 160px;
+    object-fit: contain;
+}
+.sections-list li a {
+    font-size: 2.2rem;
+}
+.general-description--title {
+    font-size: 5rem;
+    margin-top: 10px;
+}
+.sections-title {
+    font-size: 5rem;
+    margin-top: 10px;
+}
+.education-description--title {
+    font-size: 3.5rem;
+}
+.experience-description--title {
+    font-size: 3.5rem;
+}
+.information-list li {
+    font-size: 2.5rem;
+}
+.general-grid-container {
+    max-width: 1000px;
+}

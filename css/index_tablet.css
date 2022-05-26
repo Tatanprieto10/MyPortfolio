@@ -64,3 +64,6 @@ main {
     font-size: 1.6rem;
     margin: 3px 0;
 }
+.sections-list li a {
+    font-size: 1.6rem;
+}
