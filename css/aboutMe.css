@@ -1,0 +1,197 @@
+:root {
+    /*colors*/
+    --container: #EDEAEA;
+    --shadows: #A29F9F
+}
+
+*  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    background-color: lightgrey;
+}
+.main-header-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    min-width: 288px;
+    height: 150px;
+    margin: 5px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 4px var(--shadows);
+    background-image: url("./../img/civilEngineering.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.main-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.main-name {
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-shadow: 2px 2px 5px white;
+}
+.profession {
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 5px white;
+}
+.main-section {
+    height: auto;
+    margin: 10px 5px 5px 5px;
+    background: linear-gradient(207.8deg, #2b6da6 16.69%, #e2dcd6 100%);
+    border-radius: 5px;
+}
+.first-paraghaprh-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    grid-template-areas: "one one one two"
+        "one one one two";
+}   
+.text-one {
+    grid-area: one;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 5px 0 0 5px;
+    text-align: justify;
+}
+.image-first-text {
+    grid-area: two;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+}
+.second-paraghaprh-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    grid-template-areas: "two one one one"
+        "two one one one";
+}
+.text-two {
+    grid-area: one;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 0;
+    text-align: justify;
+}
+.image-second-text {
+    grid-area: two;
+    margin: 5px;
+    width: 65px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+}
+.third-paraghaprh-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    grid-template-areas: "one one one two"
+        "one one one two";
+}
+.text-three {
+    grid-area: one;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 5px 0 0 5px;
+    text-align: justify;
+}
+.image-third-text {
+    grid-area: two;
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-self: center;
+    align-self: center;
+    justify-self: center;
+}
+.image-first-text {
+    grid-area: two;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+}
+.fourth-paraghaprh-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    grid-template-areas: "two one one one"
+        "two one one one";
+}
+.text-four {
+    grid-area: one;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 0;
+    text-align: justify;
+}
+.image-fourth-text {
+    grid-area: two;
+    margin: 5px;
+    width: 80px;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    min-width: 288px;
+    height: 70px;
+    margin: 5px 5px 0 5px;
+    padding: 5px 5px 0 10px;
+    background-color:rgb(198, 197, 197);
+    border-radius: 5px 5px 0 0;
+}
+.contact--title {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-bottom: 10px;
+}
+.media-title {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-bottom: 10px;
+}
+.footer-list-containers li {
+    list-style: none;
+    font-size: 1.0rem;
+    margin: 3px 0;
+}
+.media-list li a {
+    text-decoration: none;
+}
