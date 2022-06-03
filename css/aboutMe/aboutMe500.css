@@ -1,3 +1,21 @@
+main {
+    display: flex;
+}
+.main-header-container {
+    height: 200px;
+}
+.main-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.main-name {
+    font-size: 3rem;
+    margin-bottom: 2px;
+}
+.profession {
+    font-size: 2.8rem;
+}
 .first-paragraph-container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -7,16 +25,16 @@
 }   
 .text-one {
     grid-area: one;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 5px;
-    padding: 15px 0 0 15px;
+    padding: 5px 0 0 5px;
     text-align: justify;
 }
 .image-first-text {
     grid-area: two;
     margin: 5px;
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     border-radius: 5px;
     border: 1px solid black;
     align-self: center;
@@ -31,16 +49,16 @@
 }
 .text-two {
     grid-area: one;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 5px;
-    padding: 15px 15px 15px 0;
+    padding: 5px 5px 5px 0;
     text-align: justify;
 }
 .image-second-text {
     grid-area: two;
     margin: 5px;
-    width: 120px;
-    height: 160px;
+    width: 90px;
+    height: 130px;
     border-radius: 5px;
     border: 1px solid black;
     align-self: center;
@@ -55,16 +73,27 @@
 }
 .text-three {
     grid-area: one;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 5px;
-    padding: 15px 0 0 15px;
+    padding: 5px 0 0 5px;
     text-align: justify;
 }
 .image-third-text {
     grid-area: two;
     margin: 5px;
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+    align-self: center;
+    align-self: center;
+    justify-self: center;
+}
+.image-third-text {
+    grid-area: two;
+    margin: 5px;
+    width: 90px;
+    height: 90px;
     border-radius: 5px;
     border: 1px solid black;
     align-self: center;
@@ -79,18 +108,58 @@
 }
 .text-four {
     grid-area: one;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 5px;
-    padding: 15px 15px 15px 0;
+    padding: 5px 5px 5px 0;
     text-align: justify;
 }
 .image-fourth-text {
     grid-area: two;
     margin: 5px;
-    width: 150px;
-    height: 120px;
+    width: 100px;
+    height: 90px;
     border-radius: 5px;
     border: 1px solid black;
     align-self: center;
     justify-self: center;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    min-width: 288px;
+    height: 70px;
+    margin: 5px 5px 0 5px;
+    padding: 5px 5px 0 10px;
+    background-color:rgb(198, 197, 197);
+    border-radius: 5px 5px 0 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    min-width: 288px;
+    height: 70px;
+    margin: 5px 5px 0 5px;
+    padding: 5px 5px 0 10px;
+    background-color:rgb(198, 197, 197);
+    border-radius: 5px 5px 0 0;
+}
+.contact--title {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    margin-bottom: 10px;
+}
+.media-title {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    margin-bottom: 10px;
+}
+.footer-list-containers li {
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 3px 0;
+}
+.media-list li a {
+    text-decoration: none;
 }

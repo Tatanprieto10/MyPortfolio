@@ -23,7 +23,7 @@ html {
     align-items: center;
     border-radius: 5px;
     box-shadow: 4px var(--shadows);
-    background-image: url("./../img/civilEngineering.jpg");
+    background-image: url("./../../img/civilEngineering.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
